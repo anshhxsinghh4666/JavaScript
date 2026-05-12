@@ -1,0 +1,21 @@
+<!-- Event Handling in HTML -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="22_style.css">
+</head>
+
+<body>
+    <!-- Event Handling : The task we are performing after clicking on the button is called event handling -->
+    <!-- This is inline event handling (inline means we are doing event handling inside html tag)-->
+    <button onclick="console.log('Button was clicked');alert('Hello!')">Click me!</button> <!-- Using 'onclick' the event will occur on clicking the button-->
+    <button ondblclick="console.log('Button was clicked')">Click me 2 times !</button> <!-- Using 'ondblclick' the event will occur when we double click on the button -->
+    <div onmouseover="console.log('You are inside div')"> This is a box</div> <!-- Event will occur when we hover over the div-->
+</body>
+
+</html>
